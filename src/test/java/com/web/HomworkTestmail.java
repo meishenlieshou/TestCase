@@ -72,7 +72,7 @@ public class HomworkTestmail {
 		String mailnum = "//li/div[@class='nui-tabs-item-text nui-fNoSelect'and text()='�ռ���']";
 		WebElement number = dr.findElement(By.xpath( mailnum ));
 		number.click();
-		//�ռ����ʼ�����
+		
 		int  num=Integer.parseInt(number.getText());
 		
 		String pages="//span[@class='nui-select-text']";
